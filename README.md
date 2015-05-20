@@ -1,4 +1,4 @@
 # FEWD 2015 - Spring
 
-* Author: 
-* Website: 
+* Author: Jessica Lieberman
+* Website: http://jessrose.carbonmade.com
