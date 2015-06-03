@@ -1,6 +1,6 @@
 html,
 body {
-	background: #BF55EC;
+	background: #00000;
 }
 
 h1 {
@@ -8,6 +8,13 @@ h1 {
 	color: #BDC3C7;
 }
 
+p {
+	font-style: Georgia;
+	font-size: 16px;
+	color: #222 ;
+}
+
 .intro {
-	font-size: 30 px;
+	font-size: 300px;
+
 }
