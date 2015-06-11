@@ -5,6 +5,8 @@ body {
 	font-size: 16px;
 }
 
+/*top*/
+
 .logo {
 	background-image: url(../images/logo_large.png);
 	background-repeat: no-repeat;
@@ -14,6 +16,32 @@ body {
 	color: #fff;
 	margin: 0 0 20px;
 }
+
+.logo_large {
+	margin: 20px;
+}
+
+.bar_black {
+	color: #fff;
+	background-image: url(../images/header.jpg);
+	position: center;
+	background-color: #111;
+}
+.title {
+	font-color: #fff;
+	font-size: 60px;
+	font-family: 'Sanchez', serif;
+
+}
+
+.intro {
+	color: #ccc;
+	font-size: 22px;
+	margin: 20px 0 0;
+	font-family: 'Lato';
+}
+
+/*Menu*/
 
 .coffee_menu{
 	background-color: #AC8420
@@ -29,32 +57,32 @@ body {
 	padding: 10px 0 15px;
 }
 
-.title {
-	font-color: #fff;
-	font-size: 60px;
-	font-family: 'Sanchez', serif;
-}
-
-.bar_black {
-	color: #fff;
-	background-image: url(../images/header.jpg);
-	background-color: #111;
-
+.container_wide {
+	width: 900px;
 }
 
 .container_wide {
 	width: 900px;
 }
 
+/*Location*/
 
-.intro {
-	color: #ccc;
-	font-size: 22px;
-	margin: 20px 0 0;
-	font-family: 'Lato';
+.bar_location {
+	background: #222;
+
+
 }
 
-.container_wide {
-	width: 900px;
+/*Footer*/
+
+.footer {
+	background: #222;
+	background-image: url(../images/logo_small.png);
+	background-repeat: no-repeat;
+
+}
+
+
+
 
 
