@@ -1,0 +1,60 @@
+html,
+body {
+	color: #ccc;
+	font-family: 'Sanchez', serif;
+	font-size: 16px;
+}
+
+.logo {
+	background-image: url(../images/logo_large.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	color: #fff;
+	margin: 0 0 20px;
+}
+
+.coffee_menu{
+	background-color: #AC8420
+}
+
+.espresso_menu{
+	background-color: #AC8420
+}
+
+.menu_item {
+	border-bottom: 2px solid #9B761C;
+	margin: 0;
+	padding: 10px 0 15px;
+}
+
+.title {
+	font-color: #fff;
+	font-size: 60px;
+	font-family: 'Sanchez', serif;
+}
+
+.bar_black {
+	color: #fff;
+	background-image: url(../images/header.jpg);
+	background-color: #111;
+
+}
+
+.container_wide {
+	width: 900px;
+}
+
+
+.intro {
+	color: #ccc;
+	font-size: 22px;
+	margin: 20px 0 0;
+	font-family: 'Lato';
+}
+
+.container_wide {
+	width: 900px;
+
+
