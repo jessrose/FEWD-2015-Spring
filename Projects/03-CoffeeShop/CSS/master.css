@@ -24,13 +24,17 @@ h3{
     color:#222;
     text-align: left;
 }
-header{
+.fs-row {
+  max-width: 1060px !important;
+}
+
+.header{
     background-image: url(../images/header.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     color:#fff;
     position:relative;
-    padding-top: 150px;
+    padding-top: 100px;
+
 }
 button{
     font-size: 16px;
@@ -51,28 +55,34 @@ button:hover{
 /*top*/
 
 .logo {
-	background-image: url(../images/logo_large.png);
-	background-repeat: no-repeat;
-	display: block;
-	width: 100px;
-	height:99px;
-	overflow: hidden;
-	text-indent: 100%;
-	white-space: nowrap;s
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height:99px;
+    background-image: url(../images/logo_large.png);
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;s
     top: 50%;
     left: 50%;
     margin:0 auto;
 
 }
 
-header {background-image: url(../images/header.jpg);
+header {
+    background-image: url(../images/header.jpg);
+    padding: 90px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 .intro{
     font-family: 'Lato Regular';
     font-size: 22px;
-    max-width:800px;
     display:block;
     text-align: center;
     margin: 0 auto;
@@ -82,56 +92,60 @@ header {background-image: url(../images/header.jpg);
  }
 
  .title {
-	font-size: 60px;
-	color: #fff;
+    font-size: 60px;
+    color: #fff;
 
 }
 
 
 .coffee_menu {
-	color: #fff;
-	position: center;
-	background-color: #111;
+    color: #fff;
+    position: center;
 }
 
 .logo_large {
-	margin: 20px;
+    margin: 20px;
 }
 
 .title {
-	font-size: 60px;
-	color: white;
+    font-size: 60px;
+    color: white;
 
 }
 
 .intro {
-	color: #ccc;
-	font-size: 22px;
-	margin: 20px 0 0;
-	font-family: 'Lato';
+    color: #ccc;
+    font-size: 22px;
+    margin: 20px 0 0;
+    font-family: 'Lato';
 }
 
 /*Menu*/
 
 .coffee_menu{
-	background-color: #AC8420
+    background-color: #AC8420;
+    font-family: 'Lato';
+    font-size: 16px;
 }
 
-.espresso_menu{
-	background-color: #AC8420
+.menu_set {
+    padding: 30px 0;
 }
 
 .menu_item {
-	border-bottom: 2px solid #9B761C;
-	margin: 0;
-	padding: 10px 0 15px;
+    border-bottom: 2px solid #9B761C;
+    margin: 0;
+    padding: 10px 0 15px;
 }
 
+.menu_price {
+    color: #DECC9C;
+    float: right;
 
 /*Location*/
 
 .location_hours{
-	background: white;
+    background: white;
 }
 
 .content{
@@ -145,43 +159,109 @@ header {background-image: url(../images/header.jpg);
     font-size: 16px;
 }
 
-.shop_pic{
-    background-image: url(../images/location.jpg);
-    background-repeat: no-repeat;
-    width:300px;
-    height:300px;
-    overflow:hidden;
-    text-indent: 100%;
-    white-space: nowrap;
-    display:inline-block;
-}
-.foot-pos{
-    display: inline-block;
-}
-
-.logo-small{
-    background-image: url(../images/logo_small.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    width:50px;
-    height:50px;
-    overflow:hidden;
-    text-indent: 100%;
-    white-space: nowrap;
-    margin-left: 15%
+.location{
+background-image: url(../images/location.jpg);
 
 }
 
 
 /*Footer*/
 
-footer p.foot-pos, footer div.logo-small{
-        display: block;
-        margin:10px auto;
+}
 
+.footer {
+        background-color: #222;
+        color: #fff;
+        padding: 50px 0;
+        background-position: center;
 }
 
 
+.footer:after {
+    background: url(../images/logo_small.png);
+    content: '';
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+}
 
+.foot-pos{
+    display: inline-block;
+}
 
+.social{
+    margin: 15px 0 0;
+
+}
+//coffee
+body > section.coffee_menu > div.fs-row > div > ul:nth-child(2) {
+  width: 500px;
+  float:left;
+}
+body > section.coffee_menu > div.fs-row > div > ul:nth-child(2) > li:nth-child(1),
+body > section.coffee_menu > div.fs-row > div > ul:nth-child(3) > li:nth-child(1) {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #9B761C;
+}
+body > section.coffee_menu > div.fs-row > div > ul:nth-child(3) {
+  width: 500px;
+  float: right;
+}
+@media screen and (max-width: 1220px) {
+    body > section.coffee_menu > div.fs-row > div > ul:nth-child(2),
+    body > section.coffee_menu > div.fs-row > div > ul:nth-child(3){
+        float:none;
+    }
+    body > section.coffee_menu > div.fs-row > div > ul:nth-child(2) > li:nth-child(2){
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #9B761C;
+    }
+    body > section.coffee_menu > div.fs-row > div > ul:nth-child(2){
+        margin-bottom:0px;
+    }
+
+}
+ul.menu_list.left-list{
+    float:left;
+}
+ul.menu_list.right-list{
+    float:right;
+
+}
+@media screen and (max-width: 1220px) {
+    ul.menu_list.left-list,
+    ul.menu_list.right-list{
+        float:none;
+    }
+    ul.menu_list.left-list {
+      margin-bottom: 0px;
+    }
+    ul.menu_list.right-list {
+      margin-top: 0px;
+    }
+
+}
+p.foot-pos.social {
+  float: right;
+  margin-right: 40px;
+}
+p.foot-pos.copyright {
+  position: relative;
+  top: 50px;
+  margin-left: 20px;
+  width:200px;
+}
+@media screen and (max-width: 720px) {
+
+    p.foot-pos.social {
+      float: none;
+      margin-right: 40px;
+      position: relative;
+      top: 40px;
+      left:20px;
+    }
+}
 
